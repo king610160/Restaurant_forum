@@ -1,0 +1,40 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint \"**/*.js\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dayjs": "^1.10.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^5.0.0",
+    "express-session": "^1.17.3",
+    "faker": "^5.5.3",
+    "imgur": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.22.5",
+    "sequelize-cli": "^5.5.1",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
